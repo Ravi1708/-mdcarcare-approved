@@ -6,10 +6,10 @@
   font-family: myFirstFont;
   src: url(Gabriola.ttf);
 }
-
+/* 
 .mechanics {
   font-family: Gabriola !important;
-}
+} */
 
 body {
   color: #444444;
