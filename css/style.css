@@ -1,6 +1,16 @@
 /*******************************/
 /********* General CSS *********/
 /*******************************/
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(Gabriola.ttf);
+}
+
+.mechanics {
+  font-family: Gabriola !important;
+}
+
 body {
   color: #444444;
   font-weight: 400;
@@ -308,10 +318,10 @@ a:focus {
   .nav-bar .dropdown-menu {
     box-shadow: none;
   }
-
+  /* 
   .nav-bar .btn {
     display: none;
-  }
+  } */
 }
 
 /*******************************/
@@ -1050,7 +1060,7 @@ a:focus {
   font-size: 20px;
   font-weight: bolder;
   letter-spacing: 2px;
-  color: #3d0000;
+  color: #ccb81f;
 }
 
 .footer .footer-link a {
@@ -1156,7 +1166,7 @@ a:focus {
 }
 
 .footer .copyright p a {
-  color: #3d0000;
+  color: #ccb81f;
   font-weight: 700;
   letter-spacing: 1px;
 }
