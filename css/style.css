@@ -322,6 +322,11 @@ a:focus {
     padding: 5px 0;
   }
 
+  .owl-next,
+  .owl-prev {
+    display: none !important;
+  }
+
   .nav-bar .dropdown-menu {
     box-shadow: none;
   }
