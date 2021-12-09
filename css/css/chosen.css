@@ -244,7 +244,7 @@
   margin: 0;
   padding: 0 5px;
   width: 100%;
-  min-height: 50px;
+
   font-size: 15px !important;
   border: 1px solid #aaa;
   background-color: #fff;
@@ -521,8 +521,7 @@
   background-position: -12px 2px;
 }
 
-/* @end */
-/* @group Retina compatibility */
+@end */; /* @group Retina compatibility */
 /* @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
   only screen and (min-resolution: 144dpi),
   only screen and (min-resolution: 1.5dppx) {
@@ -537,6 +536,6 @@
     background-size: 52px 37px !important;
     background-repeat: no-repeat !important;
   }
-} */
+}
 
 /* @end */

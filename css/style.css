@@ -1186,3 +1186,23 @@ a:focus {
 .footer .copyright p a:hover {
   color: #e81c2e;
 }
+
+.select-service-head {
+  display: unset;
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.chosen-choices {
+  min-height: 50px;
+}
+
+@media (max-width: 991.98px) {
+  .select-service-head {
+    display: unset;
+  }
+  .chosen-choices {
+    height: 30px !important;
+  }
+}
