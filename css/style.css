@@ -1191,7 +1191,8 @@ a:focus {
   display: unset;
   color: white;
   font-weight: bolder;
-  margin-bottom: 10px;
+
+  font-size: 20px;
 }
 
 .chosen-choices {
