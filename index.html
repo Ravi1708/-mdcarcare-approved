@@ -123,7 +123,7 @@
               <a href="index.html" class="nav-item nav-link active">Home</a>
               <a href="#about" class="nav-item nav-link">About Us</a>
               <a href="#service" class="nav-item nav-link">Our Service</a>
-              <a href="#whyus" class="nav-item nav-link">Why US</a>
+              <a href="#whyus" class="nav-item nav-link">Why Us</a>
               <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
             <div class="ml-auto">
@@ -696,7 +696,7 @@
             </div>
           </div>
           <div class="col-md-7" data-aos="fade-up" data-aos-delay="500">
-            <form autocomplete="off" class="bookform webform" role="form"  method="POST" action="https://formsubmit.co/ravikishore1708@gmail.com" enctype="multipart/form-data" >
+            <form autocomplete="off" class="bookform webform" role="form"  method="POST" action="https://formsubmit.co/mdcarcare.in@gmail.com" enctype="multipart/form-data" >
               <h4>Book Now and Grab your Offers</h4>
                <input type="hidden" name="_captcha" value="false">
               <label class="select-service-head">Email Address</label>
@@ -716,9 +716,8 @@
                 multiple
                 class="chosen-select form-select form-select-md"
                 id="multiple-label-example"
-                tabindex="8"
                 style="height: 100px;margin-top: 30px !important;"
-                name="Selected Services"
+                name="SelectedServices[]"
               >
                 <option value="OilService">Oil Service</option>
                 <option value="MechanicalWork">Mechanical Work</option>
@@ -739,7 +738,7 @@
                 <input
                   type="tel"
                   class="form-control"
-                  id="floatingInput"
+                  id="floatingInputNumber"
                   placeholder="Enter mobile number"
                    style="color: #999 !important;height: 50px;"
                    name="Mobile Number"
@@ -749,6 +748,7 @@
                 class="btn"
                 style="background-color: #887068; color: #ffff"
                 type="submit"
+                id = "submitButton"
               >
                 Book Now
               </button>
@@ -908,15 +908,28 @@
    
     <script src="js/custom.js"></script>
     <script src="js/choosen.jquery.min.js"></script>
-
+  
 
 
     <script>
       $(function () {
         $(".chosen-select").chosen({
+          max_selected_options: 10,
           width: "100%",
         });
       });
+
+      // function submitForm() {
+      //   const emailId = document.querySelector('#floatingInput')
+      //   const services = document.querySelector('#multiple-label-example')
+      //   const number = document.querySelector('#floatingInputNumber')
+
+      //   console.log(emailId.value)
+      //   console.log(services.value)
+      //   console.log(number.value)
+      // }
+
+      // document.querySelector('#submitButton').addEventListener('click',submitForm)
     </script>
 
     </script>
