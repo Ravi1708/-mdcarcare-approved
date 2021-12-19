@@ -2,7 +2,7 @@
 /********* General CSS *********/
 /*******************************/
 
-@font-face {
+/* @font-face {
   font-family: myFirstFont;
   src: url(Gabriola.ttf);
 }
@@ -12,7 +12,7 @@
   src: url("Gabriola.ttf");
   src: url("Gabriola.woff") format("woff"),
     url("Gabriola.woff2") format("woff2");
-}
+} */
 
 .mechanics {
   font-family: "Gabriola" !important;
