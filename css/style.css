@@ -407,7 +407,7 @@ a:focus {
   margin-bottom: 0px;
 }
 
-.carousel .carousel-text h1 {
+.carousel .carousel-text h2 {
   color: #ffffff;
   font-size: 70px;
   font-weight: 700;
@@ -717,6 +717,13 @@ a:focus {
   margin-left: 0;
 }
 
+.about .section-header h1 {
+  margin: 0;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
 .about .about-img img {
   width: 100%;
   border-radius: 5px;
@@ -761,6 +768,13 @@ a:focus {
   display: flex;
   flex-direction: column;
   margin-bottom: 45px;
+}
+
+.service .section-header h1 {
+  margin: 0;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
 }
 
 .service .service-item {
